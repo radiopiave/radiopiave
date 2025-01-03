@@ -1,0 +1,116 @@
+/* App.css */
+
+/* Stile generale */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Intestazione */
+header {
+  background-color: #1e90ff; /* Colore blu moderno */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Contenitore principale */
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.cover {
+  border-radius: 15px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenitore per i titoli e l'artista */
+.marquee-container {
+  overflow: hidden; /* Nasconde il testo in eccesso */
+  white-space: nowrap; /* Evita il ritorno a capo */
+  text-align: center;
+  max-width: 300px; /* Limita la larghezza */
+  font-size: 1.5rem; /* Dimensione uniforme */
+  font-weight: bold; /* Grassetto */
+  color: #2c3e50; /* Colore moderno */
+  margin: 10px 0; /* Spaziatura verticale */
+}
+
+/* Testo statico */
+.marquee-container span {
+  display: inline-block;
+}
+
+/* Testo scorrevole */
+.marquee-container.scrollable span {
+  animation: marquee 10s linear infinite; /* Abilita animazione */
+}
+
+/* Animazione per il testo scorrevole */
+@keyframes marquee {
+  from {
+    transform: translateX(100%); /* Inizia fuori dal contenitore */
+  }
+  to {
+    transform: translateX(-100%); /* Scorre verso sinistra */
+  }
+}
+
+/* Audio player */
+audio {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 300px;
+  border: none;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Piè di pagina */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Stile responsivo */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .marquee-container {
+    font-size: 1.2rem; /* Adatta la dimensione per schermi piccoli */
+  }
+}
