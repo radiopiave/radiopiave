@@ -1,6 +1,6 @@
 {
   "short_name": "Radio Piave",
-  "name": "Radio Piave PWA",
+  "name": "Radio Piave Tutta un'Altra Musica",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+  "start_url": "/radiopiave/",
   "display": "standalone",
   "theme_color": "#007BFF",
   "background_color": "#ffffff"
