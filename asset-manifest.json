@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/radiopiave/static/css/main.7c215753.css",
-    "main.js": "/radiopiave/static/js/main.7b9dfc1f.js",
+    "main.js": "/radiopiave/static/js/main.5e2fe99f.js",
     "static/js/488.b1772948.chunk.js": "/radiopiave/static/js/488.b1772948.chunk.js",
     "index.html": "/radiopiave/index.html",
     "main.7c215753.css.map": "/radiopiave/static/css/main.7c215753.css.map",
-    "main.7b9dfc1f.js.map": "/radiopiave/static/js/main.7b9dfc1f.js.map",
+    "main.5e2fe99f.js.map": "/radiopiave/static/js/main.5e2fe99f.js.map",
     "488.b1772948.chunk.js.map": "/radiopiave/static/js/488.b1772948.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c215753.css",
-    "static/js/main.7b9dfc1f.js"
+    "static/js/main.5e2fe99f.js"
   ]
 }
